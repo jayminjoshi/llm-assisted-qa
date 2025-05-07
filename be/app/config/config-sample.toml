@@ -1,0 +1,28 @@
+# The [global] section and at least one [env.<name>] section are required. The <name> of the environment
+# must match the key ENV_NAME in laravel's .env file.
+#
+# Rename this file to config.toml and fill in the secret values.
+
+[env.fkw]
+
+# MySQL
+MYSQL_HOST = "xxx"
+MYSQL_DB = "xxx"
+MYSQL_USER = "xxx"
+MYSQL_PASSWORD = "xxx"
+
+# GCP
+GCP_BUCKET = "xxx"
+GCP_PROJECT_ID = "xxx"
+GCP_LOCATION = "xxx"
+GCP_EMBEDDING_MODEL_NAME = "xxx"
+GCP_VECTOR_SEARCH_INDEX_NAME = "xxx"
+GCP_VECTOR_SEARCH_INDEX_ENDPOINT_NAME = "xxx"
+GCP_VECTOR_SEARCH_DEPLOYED_INDEX_ID = "xxx"
+GCP_LLM_MODEL_NAME = "gemini-1.5-flash"
+GCP_SUBSCRIPTION_ID = "xxx"
+
+# Langfuse
+LANGFUSE_SECRET_KEY = "xxx"
+LANGFUSE_PUBLIC_KEY = "xxx"
+LANGFUSE_HOST = "https://cloud.langfuse.com"

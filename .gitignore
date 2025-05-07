@@ -172,3 +172,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# WSL identifier files
+**/*.Identifier
+
+# Config
+*.toml
+*/*.toml
+*/*/*.toml
+!be/app/config/config-sample.toml
+!fe/config/config-sample.toml
+*/*.drawio

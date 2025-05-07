@@ -1,0 +1,17 @@
+# The [global] section and at least one [env.<name>] section are required. The <name> of the environment
+# must match the key ENV_NAME in laravel's .env file.
+#
+# Rename this file to config.toml and fill in the secret values.
+
+[env.fkw]
+
+# MySQL
+MYSQL_HOST = "xxx"
+MYSQL_DB = "xxx"
+MYSQL_USER = "xxx"
+MYSQL_PASSWORD = "xxx"
+
+# GCP
+GCP_BUCKET = "xxx"
+GCP_PROJECT = "your-project-id"
+GCP_PUBSUB_TOPIC = "your-topic-name"
